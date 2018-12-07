@@ -25,7 +25,10 @@
     "test:fp": "node test/test-fp",
     "test:main": "node test/test",
     "validate": "npm run style && npm run test",
-    "jtest": "jest"
+    "jtest": "jest",
+    "jtest:watch": "jest --watch",
+    "j": "npm run jtest",
+    "jw": "npm run jtest:watch"
   },
   "jest": {
     "transform": {

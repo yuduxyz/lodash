@@ -6,7 +6,7 @@ import baseToString from './baseToString.js'
  *
  * @private
  * @param {Function} operator The function to perform the operation.
- * @param {number} [defaultValue] The value used for `undefined` arguments.
+ * @param {number} [defaultValue] The value used for `undefined` arguments. 【虽然是可选，但是使用到的地方都必选了】
  * @returns {Function} Returns the new mathematical operation function.
  */
 function createMathOperation(operator, defaultValue) {
