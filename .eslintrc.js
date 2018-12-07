@@ -5,6 +5,10 @@ module.exports = {
     'es6': true,
     'node': true
   },
+  'globals': {
+    test: true,
+    expect: true
+  },
   'parserOptions': {
     'ecmaVersion': 6,
     'sourceType': 'module',
